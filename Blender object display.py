@@ -109,7 +109,7 @@ def init_object_texture(text):
 ############################## FUNCTION TO DISPLAY TEAPOT ################################################
 
 def overlay(aruco_lst):
-    error=2.5                                                                 #ERROR VALUE DETERMINED FROM HIT AND TRIAL
+    error=0                                                                 #ERROR VALUE DETERMINED FROM HIT AND TRIAL
     rvecs=aruco_lst[0][2]
     tvecs=aruco_lst[0][3][0]
     rmtx = cv2.Rodrigues(rvecs)[0]                                            #CONVERTING ROTATION VECTOR INTO ROTATION MATRIX
@@ -133,6 +133,8 @@ def overlay(aruco_lst):
 
     abs(thetax)
     abs(thetay)                                                                 # FOR NOW, ONLY POSITIVE ANGLES ARE NEEDED
+    if(z>10 and z<22):
+        error=2.5
     if(z>=22):
         error=5                                                                 # ERROR VALUE DETERMINED FROM HIT AND TRIAL
     x=(z-error)/(math.tan(thetax))
