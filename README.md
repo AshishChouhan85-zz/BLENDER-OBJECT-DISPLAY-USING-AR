@@ -7,3 +7,6 @@ We can't really manually define all the vertices,normals,and texture coordinates
 We need models that were carefully designed by 3D artists in tools like blender.These 3D modelling allow artists to create complicated shapes and
 apply textures to them via a process called uv mapping.The tools then automatically generate all the vertex coordinates,vertex normals,and texture coordinates
 while exporting them to a model file format we can use.
+
+# VIDEO
+[]{https://drive.google.com/file/d/1ai40B2HnerCoOgu9XMCDZVGTHXW8DeSt/view?usp=sharing}
