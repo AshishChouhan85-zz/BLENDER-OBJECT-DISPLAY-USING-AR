@@ -9,4 +9,4 @@ apply textures to them via a process called uv mapping.The tools then automatica
 while exporting them to a model file format we can use.
 
 # VIDEO
-[CLICK HERE](https://drive.google.com/file/d/1ai40B2HnerCoOgu9XMCDZVGTHXW8DeSt/view?usp=sharing)
+[CLICK HERE](https://drive.google.com/file/d/1DWFmU4tC98cRJJFpP_xXX1DjfZF_z_RZ/view?usp=sharing)
